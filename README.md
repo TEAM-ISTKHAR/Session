@@ -17,7 +17,7 @@
 
 ### 🙄 ᴅᴇᴍᴏ/ᴛᴇsᴛ ʙᴏᴛ
   
-  [sᴛʀɪɴɢ ʙᴏᴛ 🍑](https://telegram.me/StringsFatherBot)
+  [˹ sᴛʀɪɴɢ sᴇssɪᴏɴ ɢᴇɴ ʙᴏᴛ ˼ ](https://telegram.me/StringsFatherBot)
 
 ```
 Atleast Give A Star and Fork The Repo 🖤
