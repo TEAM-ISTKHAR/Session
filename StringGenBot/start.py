@@ -12,13 +12,13 @@ async def start(bot: Client, msg: Message):
 
     START_TXT = f"""**» ʜᴇʏ  {msg.from_user.mention}  ✤,
 
-» ɪ ᴀᴍ {me2},
+» ɪ ᴧᴍ {me2},
 
-» ᴀɴ ᴏᴘᴇɴ sᴏᴜʀᴄᴇ sᴛʀɪɴɢ sᴇssɪᴏɴ ɢᴇɴᴇʀᴀᴛᴏʀ ʙᴏᴛ, ᴡʀɪᴛᴛᴇɴ ɪɴ ᴩʏᴛʜᴏɴ ᴡɪᴛʜ ᴛʜᴇ ʜᴇʟᴩ ᴏғ ᴩʏʀᴏɢʀᴀᴍ.
+» ᴧɴ ᴏᴘᴇɴ sᴏᴜʀᴄᴇ sᴛʀɪɴɢ sᴇssɪᴏɴ ɢᴇɴᴇʀᴧᴛᴏʀ ʙᴏᴛ, ᴡʀɪᴛᴛᴇɴ ɪɴ ᴩʏᴛʜᴏɴ ᴡɪᴛʜ ᴛʜᴇ ʜᴇʟᴩ ᴏꜰ ᴩʏʀᴏɢʀᴧᴍ.
 
-» ᴘʟᴇᴀꜱᴇ ᴄʜᴏᴏꜱᴇ ᴛʜᴇ ᴘʏᴛʜᴏɴ ʟɪʙʀᴀʀʏ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ɢᴇɴᴇʀᴀᴛᴇ ꜱᴛʀɪɴɢ ꜱᴇꜱꜱɪᴏɴ ꜰᴏʀ.
+» ᴘʟᴇᴧꜱᴇ ᴄʜᴏᴏꜱᴇ ᴛʜᴇ ᴘʏᴛʜᴏɴ ʟɪʙʀᴧʀʏ ʏᴏᴜ ᴡᴧɴᴛ ᴛᴏ ɢᴇɴᴇʀᴧᴛᴇ ꜱᴛʀɪɴɢ ꜱᴇꜱꜱɪᴏɴ ꜰᴏʀ.
 
-» ɪғ ʏᴏᴜ ɴᴇᴇᴅ ᴀɴʏ ʜᴇʟᴘ, ᴛʜᴇɴ ᴅᴍ ᴛᴏ ᴍʏ ᴏᴡɴᴇʀ !**"""
+» ɪꜰ ʏᴏᴜ ɴᴇᴇᴅ ᴧɴʏ ʜᴇʟᴘ, ᴛʜᴇɴ ᴅᴍ ᴛᴏ ᴍʏ ᴏᴡɴᴇʀ !**"""
 
     START_BTN = [
         [InlineKeyboardButton("⌨️ ɢᴇɴᴇʀᴀᴛᴇ sᴛʀɪɴɢ", callback_data="generate")],
@@ -37,17 +37,17 @@ async def start(bot: Client, msg: Message):
     )
 
 
-GUIDE_TXT = """**✦ ʙᴀsɪᴄ ᴄᴏᴍᴍᴀɴᴅs
+GUIDE_TXT = """**✦ ʙᴧsɪᴄ ᴄᴏᴍᴍᴀɴᴅs
 
-➻ ᴛʏᴘᴇ /gen ᴏʀ ᴛᴀᴘ ɢᴇɴᴇʀᴀᴛᴇ sᴇssɪᴏɴ ғᴏʀ ɢᴇɴ sᴇssɪᴏɴ.
+➻ ᴛʏᴘᴇ /gen ᴏʀ ᴛᴀᴘ ɢᴇɴᴇʀᴧᴛᴇ sᴇssɪᴏɴ ꜰᴏʀ ɢᴇɴ sᴇssɪᴏɴ.
 
 ➻ ᴛʏᴘᴇ /ping ᴄʜᴇᴄᴋ ʙᴏᴛ ᴜᴘᴛɪᴍᴇ
 
-➻ ᴛʏᴘᴇ /stats ғᴏʀ ᴄʜᴇᴄᴋɪɴɢ ʙᴏᴛ sᴛᴀᴛs (ᴏɴʟʏ ᴏᴡɴᴇʀ ᴄᴀɴ ᴜsᴇ)
+➻ ᴛʏᴘᴇ /stats ꜰᴏʀ ᴄʜᴇᴄᴋɪɴɢ ʙᴏᴛ sᴛᴧᴛs (ᴏɴʟʏ ᴏᴡɴᴇʀ ᴄᴧɴ ᴜsᴇ)
 
-➻ ᴛʏᴘᴇ /broadcast ᴛᴏ sᴇɴᴅ ᴀ ᴍᴇssᴀɢᴇ ᴛᴏ ᴀʟʟ ᴜsᴇʀs + ᴄʜᴀᴛs (ᴏɴʟʏ ᴏᴡɴᴇʀ ᴄᴀɴ ᴜsᴇ)
+➻ ᴛʏᴘᴇ /broadcast ᴛᴏ sᴇɴᴅ ᴧ ᴍᴇssᴧɢᴇ ᴛᴏ ᴧʟʟ ᴜsᴇʀs + ᴄʜᴧᴛs (ᴏɴʟʏ ᴏᴡɴᴇʀ ᴄᴧɴ ᴜsᴇ)
 
-⦿ ᴊᴏɪɴ sᴜᴘᴘᴏʀᴛ ғᴏʀ ᴍᴏʀᴇ ᴜᴘᴅᴀᴛᴇs.**"""
+⦿ ᴊᴏɪɴ sᴜᴘᴘᴏʀᴛ ꜰᴏʀ ᴍᴏʀᴇ ᴜᴘᴅᴧᴛᴇs.**"""
 
 
 @Client.on_callback_query()
@@ -60,9 +60,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=InlineKeyboardMarkup([
                 [
                     InlineKeyboardButton("💌 sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{SUPPORT_CHAT}"),
-                    InlineKeyboardButton("🪧 ᴜᴘᴅᴀᴛᴇs", url=f"https://t.me/{UPDATE_CHANNEL}"),
+                    InlineKeyboardButton("🪧 ᴜᴘᴅᴧᴛᴇs", url=f"https://t.me/{UPDATE_CHANNEL}"),
                 ],
-                [InlineKeyboardButton("⬅️ ʙᴀᴄᴋ", callback_data="start_menu")]
+                [InlineKeyboardButton("⬅️ ʙᴧᴄᴋ", callback_data="start_menu")]
             ])
         )
 
@@ -71,16 +71,16 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
         START_TXT = f"""**» ʜᴇʏ  {query.from_user.mention}  ✤,
 
-» ɪ ᴀᴍ {me2},
+» ɪ ᴧᴍ {me2},
 
-» Aɴ ᴏᴘᴇɴ sᴏᴜʀᴄᴇ sᴛʀɪɴɢ sᴇssɪᴏɴ ɢᴇɴᴇʀᴀᴛᴏʀ ʙᴏᴛ, ᴡʀɪᴛᴛᴇɴ ɪɴ ᴩʏᴛʜᴏɴ ᴡɪᴛʜ ᴛʜᴇ ʜᴇʟᴩ ᴏғ ᴩʏʀᴏɢʀᴀᴍ.
+» ᴧɴ ᴏᴘᴇɴ sᴏᴜʀᴄᴇ sᴛʀɪɴɢ sᴇssɪᴏɴ ɢᴇɴᴇʀᴧᴛᴏʀ ʙᴏᴛ, ᴡʀɪᴛᴛᴇɴ ɪɴ ᴩʏᴛʜᴏɴ ᴡɪᴛʜ ᴛʜᴇ ʜᴇʟᴩ ᴏꜰ ᴩʏʀᴏɢʀᴧᴍ.
 
-» ᴘʟᴇᴀꜱᴇ ᴄʜᴏᴏꜱᴇ ᴛʜᴇ ᴘʏᴛʜᴏɴ ʟɪʙʀᴀʀʏ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ɢᴇɴᴇʀᴀᴛᴇ ꜱᴛʀɪɴɢ ꜱᴇꜱꜱɪᴏɴ ꜰᴏʀ.
+» ᴘʟᴇᴧꜱᴇ ᴄʜᴏᴏꜱᴇ ᴛʜᴇ ᴘʏᴛʜᴏɴ ʟɪʙʀᴧʀʏ ʏᴏᴜ ᴡᴧɴᴛ ᴛᴏ ɢᴇɴᴇʀᴧᴛᴇ ꜱᴛʀɪɴɢ ꜱᴇꜱꜱɪᴏɴ ꜰᴏʀ.
 
-» ɪғ ʏᴏᴜ ɴᴇᴇᴅ ᴀɴʏ ʜᴇʟᴘ, ᴛʜᴇɴ ᴅᴍ ᴛᴏ ᴍʏ ᴏᴡɴᴇʀ !**"""
+» ɪꜰ ʏᴏᴜ ɴᴇᴇᴅ ᴧɴʏ ʜᴇʟᴘ, ᴛʜᴇɴ ᴅᴍ ᴛᴏ ᴍʏ ᴏᴡɴᴇʀ !**"""
 
         START_BTN = [
-            [InlineKeyboardButton("⌨️ ɢᴇɴᴇʀᴀᴛᴇ sᴛʀɪɴɢ", callback_data="generate")],
+            [InlineKeyboardButton("⌨️ ɢᴇɴᴇʀᴧᴛᴇ sᴛʀɪɴɢ", callback_data="generate")],
             [
                 InlineKeyboardButton("💌 sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{SUPPORT_CHAT}"),
                 InlineKeyboardButton("💻 ᴏᴡɴᴇʀ", user_id=OWNER_ID),
