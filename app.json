@@ -1,0 +1,56 @@
+{
+  "name": "ᴀᴀʀᴜᴍɪ sᴛʀɪɴɢ ᴍᴀᴋᴇʀ",
+  "description": "ᴀ ᴛᴇʟᴇɢʀᴀᴍ ʙᴏᴛ ᴛᴏ ɢᴇɴᴇʀᴀᴛᴇ ᴘʏʀᴏɢʀᴀᴍ & ᴛᴇʟᴇᴛʜᴏɴ sᴛʀɪɴɢ sᴇssɪᴏɴs ᴇᴀsɪʟʏ.",
+  "logo": "https://files.catbox.moe/j2v23d.jpg",
+  "keywords": [
+    "telegram",
+    "bot",
+    "python",
+    "pyrogram",
+    "telethon",
+    "string session"
+  ],
+  "env": {
+    "BOT_TOKEN": {
+      "description": "ɢᴇᴛ ᴛʜɪs ᴛᴏᴋᴇɴ ғʀᴏᴍ @BotFather",
+      "required": true
+    },
+    "API_ID": {
+      "description": "ᴛᴇʟᴇɢʀᴀᴍ API ID ғʀᴏᴍ https://my.telegram.org",
+      "required": true
+    },
+    "API_HASH": {
+      "description": "ᴛᴇʟᴇɢʀᴀᴍ API ʜᴀsʜ ғʀᴏᴍ https://my.telegram.org",
+      "required": true
+    },
+    "OWNER_ID": {
+      "description": "ʏᴏᴜʀ ᴛᴇʟᴇɢʀᴀᴍ ɴᴜᴍᴇʀɪᴄ ᴜsᴇʀ ɪᴅ (ᴀs ᴏᴡɴᴇʀ)",
+      "required": true
+    },
+    "MONGO_DB_URI": {
+      "description": "ʏᴏᴜʀ ᴍᴏɴɢᴏ-ᴅʙ ᴜʀɪ sᴛʀɪɴɢ (sᴛᴀʀᴛɪɴɢ ᴡɪᴛʜ mongodb+srv...)",
+      "required": true
+    },
+    "MUST_JOIN": {
+      "description": "ᴄʜᴀɴɴᴇʟ ᴏʀ ɢʀᴏᴜᴘ ᴜsᴇʀɴᴀᴍᴇ ғᴏʀ ғᴏʀᴄᴇ ᴊᴏɪɴ (ᴡɪᴛʜᴏᴜᴛ @)",
+      "required": true
+    },
+    "START_IMG": {
+      "description": "ʟɪɴᴋ ᴛᴏ ᴀɴ ɪᴍᴀɢᴇ sʜᴏᴡɴ ɪɴ /start (ᴊᴘɢ ᴏʀ ᴘɴɢ)",
+      "required": false
+    },
+    "SUPPORT_CHAT": {
+      "description": "sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ ᴜsᴇʀɴᴀᴍᴇ (ᴡɪᴛʜᴏᴜᴛ @)",
+      "required": false
+    },
+    "UPDATE_CHANNEL": {
+      "description": "ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ ᴜsᴇʀɴᴀᴍᴇ (ᴡɪᴛʜᴏᴜᴛ @)",
+      "required": false
+    }
+  },
+  "addons": [
+    {
+      "plan": "heroku-postgresql"
+    }
+  ]
+}
