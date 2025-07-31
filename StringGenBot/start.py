@@ -21,7 +21,7 @@ async def start(bot: Client, msg: Message):
 » ɪꜰ ʏᴏᴜ ɴᴇᴇᴅ ᴧɴʏ ʜᴇʟᴘ, ᴛʜᴇɴ ᴅᴍ ᴛᴏ ᴍʏ ᴏᴡɴᴇʀ !**"""
 
     START_BTN = [
-        [InlineKeyboardButton("ɢᴇɴᴇʀᴧᴛᴇ sᴛʀɪɴɢ", callback_data="generate")],
+        [InlineKeyboardButton("ɢᴇɴᴇʀᴧᴛᴇ sᴛʀɪɴɢ sᴇssɪᴏɴ", callback_data="generate")],
         [
             InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{SUPPORT_CHAT}"),
             InlineKeyboardButton("ᴏᴡɴᴇʀ", user_id=OWNER_ID),
@@ -80,7 +80,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
 » ɪꜰ ʏᴏᴜ ɴᴇᴇᴅ ᴧɴʏ ʜᴇʟᴘ, ᴛʜᴇɴ ᴅᴍ ᴛᴏ ᴍʏ ᴏᴡɴᴇʀ !**"""
 
         START_BTN = [
-            [InlineKeyboardButton("ɢᴇɴᴇʀᴧᴛᴇ sᴛʀɪɴɢ", callback_data="generate")],
+            [InlineKeyboardButton("ɢᴇɴᴇʀᴧᴛᴇ sᴛʀɪɴɢ sᴇssɪᴏɴ", callback_data="generate")],
             [
                 InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{SUPPORT_CHAT}"),
                 InlineKeyboardButton("ᴏᴡɴᴇʀ", user_id=OWNER_ID),
