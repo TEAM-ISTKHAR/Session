@@ -35,7 +35,7 @@ import config
 
 
 
-ask_ques = "**☞︎︎︎ ᴄʜᴏᴏsᴇ ᴏɴᴇ ᴛʜᴧᴛ ʏᴏᴜ ᴡᴧɴᴛ ᴛᴏ ɢᴇɴᴇʀᴧᴛᴇ sᴇssɪᴏɴ ✔️ **"
+ask_ques = "**◈ ᴄʜᴏᴏsᴇ ᴏɴᴇ ᴛʜᴧᴛ ʏᴏᴜ ᴡᴧɴᴛ ᴛᴏ ɢᴇɴᴇʀᴧᴛᴇ sᴇssɪᴏɴ... **"
 buttons_ques = [
     [
         InlineKeyboardButton("ᴘʏʀᴏɢʀᴧᴍ", callback_data="pyrogram"),
