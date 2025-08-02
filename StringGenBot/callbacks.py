@@ -3,12 +3,12 @@ from pyrogram import Client, filters
 from pyrogram.types import CallbackQuery, InlineKeyboardMarkup
 from StringGenBot.generate import generate_session, ask_ques, buttons_ques
 
-ERROR_MESSAGE = """ɪғ ʏᴏᴜ ᴀʀᴇ ɢᴇᴛᴛɪɴɢ ᴇʀʀᴏʀ!
-ʏᴏᴜ ʜᴀᴠᴇ ᴅᴏɴᴇ sᴏᴍᴇ ᴍɪsᴛᴀᴋᴇ ᴡʜɪʟᴇ ɢᴇɴᴇʀᴀᴛɪɴɢ.
-ɢɪᴠᴇɴ ᴡʀᴏɴɢ ᴅᴀᴛᴀ ᴏʀ ᴇʟsᴇ.
-ᴛʀʏ ᴀɢᴀɪɴ ɪғ ʏᴏᴜ ᴄᴀɴ.
-ᴏʀ ɪғ ʏᴏᴜ ʜᴀᴠᴇ ғɪʟʟᴇᴅ ᴛʜɪɴɢs ᴄᴏʀʀᴇᴄᴛʟʏ ʙᴜᴛ ɢᴇᴛᴛɪɴɢ ᴇʀʀᴏʀ,
-ᴛʜᴇɴ ғᴏʀᴡᴀʀᴅ ᴇʀʀᴏʀ ᴍsɢ ᴛᴏ [к ᴧ ʀ м ᴧ](https://t.me/Swagger_Soul) !"""
+ERROR_MESSAGE = """ɪꜰ ʏᴏᴜ ᴧʀᴇ ɢᴇᴛᴛɪɴɢ ᴇʀʀᴏʀ!
+ʏᴏᴜ ʜᴧᴠᴇ ᴅᴏɴᴇ sᴏᴍᴇ ᴍɪsᴛᴧᴋᴇ ᴡʜɪʟᴇ ɢᴇɴᴇʀᴧᴛɪɴɢ.
+ɢɪᴠᴇɴ ᴡʀᴏɴɢ ᴅᴧᴛᴧ ᴏʀ ᴇʟsᴇ.
+ᴛʀʏ ᴧɢᴧɪɴ ɪꜰ ʏᴏᴜ ᴄᴧɴ.
+ᴏʀ ɪꜰ ʏᴏᴜ ʜᴧᴠᴇ ꜰɪʟʟᴇᴅ ᴛʜɪɴɢs ᴄᴏʀʀᴇᴄᴛʟʏ ʙᴜᴛ ɢᴇᴛᴛɪɴɢ ᴇʀʀᴏʀ,
+ᴛʜᴇɴ ғᴏʀᴡᴧʀᴅ ᴇʀʀᴏʀ ᴍsɢ ᴛᴏ [к ᴧ ʀ м ᴧ](https://t.me/Swagger_Soul) !"""
 
 @Client.on_callback_query(filters.regex(pattern=r"^(generate|pyrogram|pyrogram_bot|telethon_bot|telethon)$"))
 async def _callbacks(bot: Client, callback_query: CallbackQuery):
