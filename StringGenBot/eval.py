@@ -122,7 +122,7 @@ async def forceclose_command(_, CallbackQuery):
     if CallbackQuery.from_user.id != int(user_id):
         try:
             return await CallbackQuery.answer(
-                "◈ ɪᴛ'ʟʟ ʙᴇ ʙᴇᴛᴛᴇʀ ɪғ ʏᴏᴜ sᴛᴀʏ ɪɴ ʏᴏᴜʀ ʟɪᴍɪᴛs ʙᴧʙʏ.", show_alert=True
+                "◈ ɪᴛ'ʟʟ ʙᴇ ʙᴇᴛᴛᴇʀ ɪғ ʏᴏᴜ sᴛᴧʏ ɪɴ ʏᴏᴜʀ ʟɪᴍɪᴛs ʙᴧʙʏ.", show_alert=True
             )
         except:
             return
@@ -198,4 +198,5 @@ async def shellrunner(client, message):
         await edit_or_reply(message, text=f"**OUTPUT:**\n```{output}```")
     else:
         await edit_or_reply(message, text="**OUTPUT: **\n`No output`")
+
 
