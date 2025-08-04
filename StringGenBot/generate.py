@@ -70,13 +70,13 @@ async def main(_, msg: Message):
 
 async def generate_session(bot: Client, msg: Message, telethon=False, old_pyro: bool = False, is_bot: bool = False):
     if telethon:
-        ty = "𝖳𝖤𝖫𝖤𝖳𝖧𝖮𝖭"
+        ty = "𝗧𝗘𝗟𝗘𝗧𝗛𝗢𝗡"
     else:
-        ty = "𝖯𝖸𝖱𝖮𝖦𝖱𝖠𝖬"
+        ty = "𝗣𝗬𝗥𝗢𝗚𝗥𝗔𝗠"
         if not old_pyro:
-            ty += " 𝖵2"
+            ty += " 𝗩2"
     if is_bot:
-        ty += " 𝖡𝖮𝖳"
+        ty += " 𝗕𝗢𝗧"
     await msg.reply(f"» ᴛʀʏɪɴɢ ᴛᴏ sᴛᴧʀᴛ **{ty}** sᴇssɪᴏɴ ɢᴇɴʀᴧᴛᴏʀ...")
     user_id = msg.chat.id
     api_id_msg = await bot.ask(user_id, "ᴘʟᴇᴧsᴇ sᴇɴᴅ ʏᴏᴜʀ **ᴧᴘɪ_ɪᴅ** ᴛᴏ ᴘʀᴏᴄᴇᴇᴅ.\n\nᴄʟɪᴄᴋ ᴏɴ /skip 𝖥ғᴏʀ ᴜsɪɴɢ ʙᴏᴛ ᴧᴘɪ.", filters=filters.text)
@@ -91,7 +91,7 @@ async def generate_session(bot: Client, msg: Message, telethon=False, old_pyro: 
         except ValueError:
             await api_id_msg.reply("**𝖠𝖯𝖨_𝖨𝖣** ᴍᴜsᴛ ʙᴇ ᴧɴ ɪɴᴛᴇɢᴇʀ, sᴛᴧʀᴛ ɢᴇɴᴇʀᴧᴛɪɴɢ ʏᴏᴜʀ sᴇssɪᴏɴ ᴧɢᴧɪɴ.", quote=True, reply_markup=InlineKeyboardMarkup(gen_button))
             return
-        api_hash_msg = await bot.ask(user_id, "☞︎︎︎ ɴᴏᴡ ᴘʟᴇᴧsᴇ sᴇɴᴅ ʏᴏᴜʀ **ᴧᴘɪ_ʜᴀsʜ** ᴛᴏ ᴄᴏɴᴛɪɴᴜᴇ.", filters=filters.text)
+        api_hash_msg = await bot.ask(user_id, "☞︎︎︎ ɴᴏᴡ ᴘʟᴇᴧsᴇ sᴇɴᴅ ʏᴏᴜʀ **ᴧᴘɪ_ʜᴀsʜ** ᴛᴏ ᴄᴏɴᴛɪɴᴜᴇ.", filters=filters.textᴍ)
         if await cancelled(api_hash_msg):
             return
         api_hash = api_hash_msg.text
