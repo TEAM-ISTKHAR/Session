@@ -40,12 +40,12 @@ async def ping_handler(client: Client, message: Message):
         photo=START_IMG,
         caption=f"""**⊚ ʜᴇʏ ʙᴧʙʏ !!
 
-˹ sᴛʀɪɴɢ ꜰᴧᴛʜᴇʀ ɢᴇɴᴇʀᴧᴛᴏʀ ˼ ɪꜱ ᴧʟɪᴠᴇ 🥀 ᴧɴᴅ ᴡᴏʀᴋɪɴɢ ꜰɪɴᴇ
+˹ sᴛʀɪɴɢ sᴇssɪᴏɴ ɢᴇɴ ʙᴏᴛ ˼ ɪꜱ ᴧʟɪᴠᴇ 🥀 ᴧɴᴅ ᴡᴏʀᴋɪɴɢ ꜰɪɴᴇ
 
 ➥ ᴘᴏɴɢ: `{latency:.3f} ms`
 ➥ ᴜᴘᴛɪᴍᴇ: {uptime}
 
-⦿ ᴄʀᴇᴧᴛᴇᴅ ʙʏ :- [ᴋᴀʀᴍᴀ - ᴏᴘ ](https://t.me/Swagger_Soul)**""",
+⦿ ᴄʀᴇᴧᴛᴇᴅ ʙʏ :- [ㅤㅤ- к ᴧ ʀ м ᴧ › ᴏᴘ ⇢](https://t.me/Swagger_Soul)**""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
