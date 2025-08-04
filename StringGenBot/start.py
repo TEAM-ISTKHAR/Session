@@ -10,15 +10,15 @@ def filter_cmd(cmd: str):
 async def start(bot: Client, msg: Message):
     me2 = (await bot.get_me()).mention
 
-    START_TXT = f"""**❖ ʜᴇʏ ʙᴧʙʏ {msg.from_user.mention}  ✤,
+    START_TXT = f"""**๏ нєу ʙᴧʙʏ {msg.from_user.mention}  
 
-● ɪ ᴧᴍ {me2},
+➻ ɪ ᴧᴍ {me2},
 
-● ᴧɴ ᴏᴘᴇɴ sᴏᴜʀᴄᴇ sᴛʀɪɴɢ sᴇssɪᴏɴ ɢᴇɴᴇʀᴧᴛᴏʀ ʙᴏᴛ - ᴡʀɪᴛᴛᴇɴ ɪɴ ᴩʏᴛʜᴏɴ ᴡɪᴛʜ ᴛʜᴇ ʜᴇʟᴩ ᴏꜰ ᴩʏʀᴏɢʀᴧᴍ.
+๏ ᴧɴ ᴏᴘᴇɴ sᴏᴜʀᴄᴇ sᴛʀɪɴɢ sᴇssɪᴏɴ ɢᴇɴᴇʀᴧᴛᴏʀ ʙᴏᴛ - ᴡʀɪᴛᴛᴇɴ ɪɴ ᴩʏᴛʜᴏɴ ᴡɪᴛʜ ᴛʜᴇ ʜᴇʟᴩ ᴏꜰ ᴩʏʀᴏɢʀᴧᴍ.
 
-● ᴘʟᴇᴧꜱᴇ ᴄʜᴏᴏꜱᴇ ᴛʜᴇ ᴘʏᴛʜᴏɴ ʟɪʙʀᴧʀʏ ʏᴏᴜ ᴡᴧɴᴛ ᴛᴏ ɢᴇɴᴇʀᴧᴛᴇ ꜱᴛʀɪɴɢ ꜱᴇꜱꜱɪᴏɴ ꜰᴏʀ.
+๏ ᴘʟᴇᴧꜱᴇ ᴄʜᴏᴏꜱᴇ ᴛʜᴇ ᴘʏᴛʜᴏɴ ʟɪʙʀᴧʀʏ ʏᴏᴜ ᴡᴧɴᴛ ᴛᴏ ɢᴇɴᴇʀᴧᴛᴇ ꜱᴛʀɪɴɢ ꜱᴇꜱꜱɪᴏɴ ꜰᴏʀ.
 
-● ɪꜰ ʏᴏᴜ ɴᴇᴇᴅ ᴧɴʏ ʜᴇʟᴘ, ᴛʜᴇɴ ᴅᴍ ᴛᴏ ᴍʏ ᴏᴡɴᴇʀ !**"""
+๏ ɪꜰ ʏᴏᴜ ɴᴇᴇᴅ ᴧɴʏ ʜᴇʟᴘ, ᴛʜᴇɴ ᴅᴍ ᴛᴏ ᴍʏ ᴏᴡɴᴇʀ !**"""
 
     START_BTN = [
         [InlineKeyboardButton("ɢᴇɴᴇʀᴧᴛᴇ sᴛʀɪɴɢ sᴇssɪᴏɴ", callback_data="generate")],
@@ -37,7 +37,7 @@ async def start(bot: Client, msg: Message):
     )
 
 
-GUIDE_TXT = """**◈ ʙᴧsɪᴄ ᴄᴏᴍᴍᴀɴᴅs
+GUIDE_TXT = """**๏ ʙᴧsɪᴄ ᴄᴏᴍᴍᴀɴᴅs
 
 ➻ ᴛʏᴘᴇ /gen ᴏʀ ᴛᴀᴘ ɢᴇɴᴇʀᴧᴛᴇ sᴇssɪᴏɴ ꜰᴏʀ ɢᴇɴ sᴇssɪᴏɴ.
 
@@ -69,20 +69,20 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif data == "start_menu":
         me2 = (await client.get_me()).mention
 
-        START_TXT = f"""**◈ ʜᴇʏ ʙᴧʙʏ {query.from_user.mention}  ✤,
+        START_TXT = f"""**๏ нєу ʙᴧʙʏ {query.from_user.mention}  ✤,
 
-◈ ɪ ᴧᴍ {me2},
+➻ ɪ ᴧᴍ {me2},
 
-◈ ᴧɴ ᴏᴘᴇɴ sᴏᴜʀᴄᴇ sᴛʀɪɴɢ sᴇssɪᴏɴ ɢᴇɴᴇʀᴧᴛᴏʀ ʙᴏᴛ - ᴡʀɪᴛᴛᴇɴ ɪɴ ᴩʏᴛʜᴏɴ ᴡɪᴛʜ ᴛʜᴇ ʜᴇʟᴩ ᴏꜰ ᴩʏʀᴏɢʀᴧᴍ.
+๏ ᴧɴ ᴏᴘᴇɴ sᴏᴜʀᴄᴇ sᴛʀɪɴɢ sᴇssɪᴏɴ ɢᴇɴᴇʀᴧᴛᴏʀ ʙᴏᴛ - ᴡʀɪᴛᴛᴇɴ ɪɴ ᴩʏᴛʜᴏɴ ᴡɪᴛʜ ᴛʜᴇ ʜᴇʟᴩ ᴏꜰ ᴩʏʀᴏɢʀᴧᴍ.
 
-◈ ᴘʟᴇᴧꜱᴇ ᴄʜᴏᴏꜱᴇ ᴛʜᴇ ᴘʏᴛʜᴏɴ ʟɪʙʀᴧʀʏ ʏᴏᴜ ᴡᴧɴᴛ ᴛᴏ ɢᴇɴᴇʀᴧᴛᴇ ꜱᴛʀɪɴɢ ꜱᴇꜱꜱɪᴏɴ ꜰᴏʀ.
+๏ ᴘʟᴇᴧꜱᴇ ᴄʜᴏᴏꜱᴇ ᴛʜᴇ ᴘʏᴛʜᴏɴ ʟɪʙʀᴧʀʏ ʏᴏᴜ ᴡᴧɴᴛ ᴛᴏ ɢᴇɴᴇʀᴧᴛᴇ ꜱᴛʀɪɴɢ ꜱᴇꜱꜱɪᴏɴ ꜰᴏʀ.
 
-◈ ɪꜰ ʏᴏᴜ ɴᴇᴇᴅ ᴧɴʏ ʜᴇʟᴘ, ᴛʜᴇɴ ᴅᴍ ᴛᴏ ᴍʏ ᴏᴡɴᴇʀ !**"""
+๏ ɪꜰ ʏᴏᴜ ɴᴇᴇᴅ ᴧɴʏ ʜᴇʟᴘ, ᴛʜᴇɴ ᴅᴍ ᴛᴏ ᴍʏ ᴏᴡɴᴇʀ !**"""
 
         START_BTN = [
             [InlineKeyboardButton("ɢᴇɴᴇʀᴧᴛᴇ sᴛʀɪɴɢ sᴇssɪᴏɴ", callback_data="generate")],
             [
-                InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{SUPPORT_CHAT}"),
+                InlineKeyboardButton("ᴜᴘᴅᴧᴛᴇs", url=f"https://t.me/{UPDATE_CHANNEL}"),
                 InlineKeyboardButton("ᴏᴡɴᴇʀ", user_id=OWNER_ID),
             ],
             [InlineKeyboardButton("ɢᴜɪᴅᴇ", callback_data="guide")]
