@@ -41,7 +41,7 @@ if __name__ == "__main__":
         raise
 
     uname = app.get_me().username
-    print(f"@{uname} NOW SESSION GEN IS READY TO GEN SESSION")
+    print(f"@{uname} ɴᴏᴡ sᴛʀɪɴɢ sᴇssɪᴏɴ ɢᴇɴ ɪs ʀᴇᴧᴅʏ ᴛᴏ ɢᴇɴ sᴇssɪᴏɴ")
     
     idle()
     
