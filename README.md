@@ -26,7 +26,7 @@
 Atleast Give A Star and Fork The Repo 🖤
 ```
 
-## 🗒️ ɴᴇᴄᴇssᴀʀʏ ᴠᴀʀs
+## 🗒️ ɴᴇᴄᴇssᴧʀʏ ᴠᴀʀs
 
 ☞ `API_ID` - Get your API_ID from [my.telegram.org](https://my.telegram.org/apps)<br>
 ☞ `API_HASH` - Get your API_HASH from [my.telegram.org](https://my.telegram.org/apps)<br>
