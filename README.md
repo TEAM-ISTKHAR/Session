@@ -28,10 +28,10 @@ Atleast Give A Star and Fork The Repo 🖤
 
 ## 🗒️ ɴᴇᴄᴇssᴧʀʏ ᴠᴧʀs
 
-☞ `API_ID` - ɢᴇᴛ ʏᴏᴜʀ API_ID ꜰʀᴏᴍ [my.telegram.org](https://my.telegram.org/apps)<br>
-☞ `API_HASH` - ɢᴇᴛ ʏᴏᴜʀ API_HASH ꜰʀᴏᴍ [my.telegram.org](https://my.telegram.org/apps)<br>
-☞ `BOT_TOKEN` - ɢᴇᴛ ʏᴏᴜʀ BOT_TOKEN ꜰʀᴏᴍ [@BotFather](https://t.me/BotFather)<br>
-☞ `MONGO_DB_URI` - ɢᴇᴛ MONGO_DB_URI ꜰʀᴏᴍ [MongoDB.com](https://cloud.mongodb.com)<br>
+☞ `API_ID` - ɢᴇᴛ ʏᴏᴜʀ ᴀᴘɪ_ɪᴅ ꜰʀᴏᴍ [my.telegram.org](https://my.telegram.org/apps)<br>
+☞ `API_HASH` - ɢᴇᴛ ʏᴏᴜʀ ᴀᴘɪ_ʜᴀsʜ ꜰʀᴏᴍ [my.telegram.org](https://my.telegram.org/apps)<br>
+☞ `BOT_TOKEN` - ɢᴇᴛ ʏᴏᴜʀ ʙᴏᴛ_ᴛᴏᴋᴇɴ ꜰʀᴏᴍ [@BotFather](https://t.me/BotFather)<br>
+☞ `MONGO_DB_URI` - ɢᴇᴛ ᴍᴏɴɢᴏ_ᴅʙ_ᴜʀɪ ꜰʀᴏᴍ [MongoDB.com](https://cloud.mongodb.com)<br>
 
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
