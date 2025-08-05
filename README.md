@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://files.catbox.moe/gvqvo8.jpg" alt="StringGen">
+  <img src="https://files.catbox.moe/4nscbe.jpg" alt="StringGen">
 
  
 ### 🤤 ꜰᴇᴧᴛᴜʀᴇs
