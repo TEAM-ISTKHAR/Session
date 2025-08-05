@@ -14,7 +14,7 @@
 
 ### 🚀 ᴅᴇᴘʟᴏʏ ᴛᴏ ʜᴇʀᴏᴋᴜ
   
-  <p align="center"><a href="https://dashboard.heroku.com/new?template=https://github.com/itsAarumi/StringSession"> <img src="https://img.shields.io/badge/sᴛʀɪɴɢ sᴇssɪᴏɴ-ɢᴇɴ ʙᴏᴛ-red?logo=heroku" width="220" height="38.45"/></a></p>
+  <p align="center"><a href="https://dashboard.heroku.com/new?template=https://github.com/itsAarumi/StringSession"> <img src="https://img.shields.io/badge/sᴛʀɪɴɢ sᴇssɪᴏɴ-ɢᴇɴ ʙᴏᴛ-purple?logo=heroku" width="220" height="38.45"/></a></p>
 
 
 
