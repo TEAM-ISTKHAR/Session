@@ -11,7 +11,7 @@
 
 ### 🚀 ᴅᴇᴘʟᴏʏ ᴛᴏ ʜᴇʀᴏᴋᴜ
   
-  <p align="center"><a href="https://dashboard.heroku.com/new?template=https://github.com/itsAarumi/StringSession"> <img src="https://img.shields.io/badge/Deploy-Heroku-purple?logo=heroku" width="220" height="38.45"/></a></p>
+  <p align="center"><a href="https://dashboard.heroku.com/new?template=https://github.com/itsAarumi/StringSession"> <img src="https://img.shields.io/badge/ᴅᴇᴘʟᴏʏ ᴛᴏ-ʜᴇʀᴏᴋᴜ-purple?logo=heroku" width="220" height="38.45"/></a></p>
 
 
 
